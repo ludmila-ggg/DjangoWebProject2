@@ -55,13 +55,13 @@ h2 {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #ff0000;
+    color: white;
 }
 
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-        color: #00ff21;
-        background-color: orangered;
+    .navbar-inverse .navbar-nav > li > a:hover,
+    .navbar-inverse .navbar-nav > li > a:focus {
+        color: forestgreen;
+        background-color: lightgreen;
         border-radius: 20%;
     }
 
