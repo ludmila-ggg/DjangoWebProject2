@@ -1,0 +1,98 @@
+html {
+    padding-top: 25px;
+    background-image: url(images/bg_page.png);
+}
+
+body {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+    background-color: #E1EDEB;
+}
+
+header {
+    background: rgb(255,214,94);
+    background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));
+    padding-top: 20px;
+}
+
+
+h1 {
+    font-family: 'Kurale', 'Arial Black', serif;
+    font-weight: normal;
+    color: #6A94CC;
+    font-size: 3em;
+    margin: 0;
+}
+
+p, address {
+    font-family: "Palatino Linotype", Baskerville, serif;
+    font-size: 1.25em;
+    color: #616161;
+    line-height: 150%;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+h2 {
+    color: #B1967C;
+    font-family: 'Kurale', 'Arial Black', serif;
+    font-weight: normal;
+    font-size: 2em;
+    border-bottom: 2px white solid;
+    background: url(images/head-icon.png) no-repeat 10px 10px;
+    padding: 0 0 2px 60px;
+    margin: 0;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ff0000;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+        color: #00ff21;
+        background-color: orangered;
+        border-radius: 20%;
+    }
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 480px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
