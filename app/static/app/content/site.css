@@ -1,6 +1,7 @@
 html {
     padding-top: 25px;
     background-image: url(images/bg_page.png);
+    background-color: #0fcd78;
 }
 
 body {
@@ -18,12 +19,17 @@ header {
     padding-top: 20px;
 }
 
+.navbar {
+    background-color: #f6f9e9;
+    color: black;
+    font-weight: bold;
+}
 
 h1 {
     font-family: 'Kurale', 'Arial Black', serif;
     font-weight: normal;
     color: #6A94CC;
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -40,7 +46,7 @@ h2 {
     color: #B1967C;
     font-family: 'Kurale', 'Arial Black', serif;
     font-weight: normal;
-    font-size: 2em;
+    font-size: 1.5em;
     border-bottom: 2px white solid;
     background: url(images/head-icon.png) no-repeat 10px 10px;
     padding: 0 0 2px 60px;
@@ -54,22 +60,39 @@ h2 {
     padding-right: 15px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: white;
-}
-
     .navbar-inverse .navbar-nav > li > a:hover,
     .navbar-inverse .navbar-nav > li > a:focus {
-        color: forestgreen;
+        color: green;
         background-color: lightgreen;
         border-radius: 20%;
     }
 
 /* Set width on the form input elements since they're 100% wide by default */
+label {
+    float: left;
+    clear: both;
+    color: #333;
+    font-size: 1em;
+    margin: 0 5px 5px 0;
+}
+
+input:focus {
+    background: #f5f0c0;
+    color: blue;
+}
+
+textarea:focus {
+    background: #f5f0c0;
+    color: blue;
+}
+
+
 input,
 select,
 textarea {
     max-width: 480px;
+    background: #efefef;
+    font-size: 1em;
 }
 
 /* styles for validation helpers */
@@ -80,6 +103,7 @@ textarea {
 .field-validation-valid {
     display: none;
 }
+
 
 input.input-validation-error {
     border: 1px solid #b94a48;
